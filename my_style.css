@@ -1,0 +1,724 @@
+@charset "UTF-8";
+
+/*
+Khatchik Shahinyan
+*/
+
+body {
+    margin: auto;             /* Centrera sidan */
+    width: 860px;
+    font-family: 'Helvetica Neue', 'Liberation Sans', Calibri, Arial, sans-serif;
+    font-size: 100%;
+}
+/*
+section, header, footer {
+    outline: 1px solid red;
+}
+*/
+#copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+
+p {
+    font-family: 'Meriende One', cursive ;
+	-moz-hyphen: auto;
+}
+.menu {
+    font-family: 'Meriende One', cursive ;
+}
+p {
+    font-family: 'Meriende One', cursive ;
+}
+
+.startpage > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.startpage .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.startpage .logo {
+    width: 135px;
+    height: 168px;
+}
+.startpage > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.startpage > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.startpage header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.startpage > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.startpage > section:last-of-type {
+    margin-right: 0;
+}
+.startpage > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: large;
+    font-weight: normal;
+}
+
+
+
+
+
+
+.contact_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.contact_html .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.contact_html .logo {
+    width: 135px;
+    height: 168px;
+}
+.contact_html > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.contact_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.contact_html header p.tagline {
+    text-align: center;
+    font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.contact_html > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.contact_html > section:last-of-type {
+    margin-right: 0;
+}
+ 
+.contact_html > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    /* border-radius: 10%; */
+    font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    width: 672px;
+    /* font-weight: normal; */
+}
+.contact_html > section > h3 {
+    width: 772px;
+    font-family: 'Meriende One', cursive ;
+}
+
+
+
+
+
+
+
+.datorsystem_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.datorsystem_html .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.datorsystem_html .logo {
+    width: 135px;
+    height: 168px;
+}
+.datorsystem_html > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.datorsystem_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.datorsystem_html header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.datorsystem_html > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.datorsystem_html > section:last-of-type {
+    margin-right: 0;
+}
+ 
+.datorsystem_html > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    /* font-weight: normal; */
+}
+ 
+
+.about > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.about .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.about .logo {
+    width: 235px;
+    height: 198px;
+}
+.about > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.about > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.about header p.tagline {
+    font-size: 120%;
+	font-family: 'Meriende One', cursive ;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.about > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.about > section:last-of-type {
+    margin-right: 0;
+}
+.about > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: large;
+    font-weight: normal;
+    
+}
+
+
+.about >.menu a:link, 
+.about >.menu a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+.about >.menu a:focus, 
+.about >.menu a:hover {
+    text-decoration: underline;
+    color: #A26F00;
+    
+}
+
+.about >.menu a:active {
+    text-decoration: underline;
+    color: #ff4900;
+    
+}
+
+
+.work > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.work .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.work .logo {
+    width: 235px;
+    height: 198px;
+}
+.work > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.work > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.work header p.tagline {
+    font-size: 120%;
+	font-family: 'Meriende One', cursive ;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.work > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.work > section:last-of-type {
+    margin-right: 0;
+}
+.work > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: large;
+    font-weight: normal;
+    
+}
+
+.work >.menu a:link, 
+.work >.menu a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+.work >.menu a:focus, 
+.work >.menu a:hover {
+    text-decoration: underline;
+    color: #A26F00;
+    
+}
+
+.work >.menu a:active {
+    text-decoration: underline;
+    color: #ff4900;
+    
+}
+
+
+.blog > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.blog .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.blog .logo1 {
+    width: 100px;
+    height: 150px;
+}
+.blog .logo2 {
+    width: 100px;
+    height: 150px;
+}
+
+.blog > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.blog > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.blog header p.tagline {
+    font-size: 120%;
+	font-family: 'Meriende One', cursive ;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.blog > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.blog > section:last-of-type {
+    margin-right: 0;
+}
+.blog > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: large;
+    font-weight: normal;
+    
+}
+
+.blog >.menu a:link, 
+.blog >.menu a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+.blog >.menu a:focus, 
+.blog >.menu a:hover {
+    text-decoration: underline;
+    color: #A26F00;
+    
+}
+
+.blog >.menu a:active {
+    text-decoration: underline;
+    color: #ff4900;
+    
+}
+
+
+.contact > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.contact .hwrap a {
+    /* margin-right: 20px; */
+    margin-right: 30px;
+}
+.contact .logo1 {
+    width: 100px;
+    height: 150px;
+}
+.contact .logo2 {
+    width: 100px;
+    height: 150px;
+}
+
+.contact > header > .hwrap h1 {
+    font-size: 500%;           /* Massiv rubrik */
+    font-family: 'Merienda One', cursive ;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.contact > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.contact header p.tagline {
+    font-size: 120%;
+	font-family: 'Meriende One', cursive ;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+.contact > section {
+    display: inline-block;
+    width: 20%;
+    margin-right: 6%;
+    vertical-align: top;
+}
+.contact > section:last-of-type {
+    margin-right: 0;
+}
+.contact > section > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 10%;
+    font-family: 'Meriende One', cursive ;
+    font-size: large;
+    font-weight: normal;
+    
+}
+
+.contact >.menu a:link, 
+.contact >.menu a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+.contact >.menu a:focus, 
+.contact >.menu a:hover {
+    text-decoration: underline;
+    color: #A26F00;
+    
+}
+
+.contact >.menu a:active {
+    text-decoration: underline;
+    color: #ff4900;
+    
+}
+
+footer {
+    display: block;
+    margin-top: 3em;
+    text-align: center;
+    color: #999;
+}
+.contact_html fieldset {
+    /* outline: 10p soldid red; */
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+}
+.contact_html legend {
+    font-size: larger;
+}
+.contact_html form p {
+    display: flex;
+    text-align: right;
+    padding-right: 1ch;
+}
+.contact_html fieldset .reqfield {
+    flex: 0 0 2ch; /* Minskad */
+    order: 1;
+    text-align: center;
+    padding-right: 0;
+}
+.contact_html input[type=text], .contact_html input[type=email] {
+    flex: 0 0 70ch;
+    max-width: 200px;
+}
+.contact_html textarea {
+    flex: 1 1 50px;
+    max-width: 490px;
+    height: 5em;
+    resize: vertical;
+}
+.contact_html input[type="submit"] {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+.historia_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.historia_html .hwrap a {
+    margin-right: 30px;
+}
+.historia_html .logo1 {
+    width: 230px;
+    height: 198px;
+}
+.historia_html > header > .hwrap h1 {
+    font-size: 400%;
+    font-family: 'Merienda One', cursive;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.historia_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.historia_html > header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+
+.historia_html fieldset {
+    /* outline: 10p soldid red; */
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+}
+.historia_html legend {
+    font-size: larger;
+}
+.historia_html form p {
+    display: flex;
+    text-align: right;
+    padding-right: 1ch;
+}
+.historia_html fieldset .reqfield {
+    flex: 0 0 2ch; /* Minskad */
+    order: 1;
+    text-align: center;
+    padding-right: 0;
+}
+.historia_html input[type=text], .historia_html input[type=email] {
+    flex: 0 0 70ch;
+    max-width: 200px;
+}
+.historia_html textarea {
+    flex: 1 1 50px;
+    max-width: 490px;
+    height: 5em;
+    resize: vertical;
+}
+.historia_html input[type="submit"] {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+.vad_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.vad_html .hwrap a {
+    margin-right: 30px;
+}
+.vad_html .logo {
+    width: 230px;
+    height: 198px;
+}
+.vad_html > header > .hwrap h1 {
+    font-size: 500%;
+    font-family: 'Merienda One', cursive;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.vad_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.vad_html > header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+
+
+
+
+
+.programvara_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.programvara_html .hwrap a {
+    margin-right: 30px;
+}
+.programvara_html .logo {
+    width: 300px;
+    height: 300px;
+}
+.programvara_html > header > .hwrap h1 {
+    font-size: 500%;
+    font-family: 'Merienda One', cursive;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.programvara_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.programvara_html > header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+
+
+
+
+.maskinvara_html > header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.maskinvara_html .hwrap a {
+    margin-right: 30px;
+}
+.maskinvara_html .logo {
+    width: 300px;
+    height: 300px;
+}
+.maskinvara_html > header > .hwrap h1 {
+    font-size: 500%;
+    font-family: 'Merienda One', cursive;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 53%;
+}
+.maskinvara_html > header > .hwrap h1:first-letter {
+    color: #00AF64;
+}
+.maskinvara_html > header p.tagline {
+	text-align: center;
+	font-family: 'Meriende One', cursive ;
+    font-size: 120%;
+    padding: 0.5em;   /* Avstånd till kantlinje */
+    border-top: 3px double #00af64;
+    border-bottom: 3px double #00af64;
+    /* color: green; */
+}
+
+

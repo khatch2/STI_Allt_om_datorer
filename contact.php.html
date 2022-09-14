@@ -1,0 +1,103 @@
+<!--
+Khatchik Shahinyan
+-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <title>Hur man kontakter oss - AlltOmDatorer</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" />
+  <link href="my_style.css" rel="stylesheet" />
+</head>
+<body class="contact_html">
+	<header>
+		<div class="hwrap">
+			<a href="./">
+				<img id='img_write' class="logo1" alt="Om oss" src="./images/write.gif" /></a>
+			<a href="./">
+				<img id='img_databas' class="logo2" alt="Om oss" src="./images/databas.gif" /></a>
+			<h1>Kontacta oss</h1>
+		</div>
+		<p class="tagline" >
+			<canvas id='canvas' width='50' height='50' style ='background-color: whitesmoke;'>		</canvas>
+			Ni kan lättare att nå oss vid kontakt.
+		</p>
+	</header>
+
+	<div style = 'display: none'>
+		<audio controls id='my_audio'>
+			<source src="./sounds/007.mp3">
+		</audio>
+	</div>
+	
+	<section>
+		<h2>
+			You know how to find us by only use our contact forms and addresses.
+		</h2>
+		<h3>
+			Du vet hur kan du kontakta oss, det är bara genom vår former och adresser.
+		</h3>
+	</section>
+	
+   <div role="main">
+		<h2 id="contact_form" style="font-family: times;">Kontaktformulär</h2>
+		<form action="" method="">
+		<fieldset id="userData">
+		<legend>Vem är du?</legend>
+      <p>
+        <label for="ditt_namn">Namn:</label>
+		<label for="ditt_namn" class="reqfield">
+			<strong class="required" title="Obligatorisk uppgift" >*</strong>
+		</label>
+        <input type="text" name="ditt_namn" id="ditt_namn" required placeholder="Förnamn Efternamn" />
+      </p>
+      <p>
+		<label for="ditt_email">Mejladress:</label>
+		<label for="ditt_email" class="reqfield">
+			<strong class="required" title="Obligatorisk uppgift">*</strong>
+		</label>
+		<input type="email" name="ditt_email" id="ditt_email" required placeholder="foo@bar.com" />
+	  </p>
+	  <p>
+		<label for="ditt_mobil_telefonnummer">Mobil telefonnummer:</label>
+		<input type="" name="" id="" required placeholder="0712-345678" />
+	  </p>
+    </fieldset>
+    <fieldset id="userMessage">
+		<legend>Meddelande</legend>
+      <p>
+        <label for="ditt_ärende">Ärende:</label>
+		<label for="ditt_ärende" class="reqfield">
+			<strong class="required" title="Obligatorisk uppgift">*</strong>
+		</label>
+		<input type="text" name="ditt_ärende" id="ditt_ärende" required placeholder="Minst 5 tecken" />
+      </p>
+      <p>
+		<label for="ditt_ärende_text">Text:</label>
+		<label for="ditt_ärende_text" class="reqfield">
+			<strong class="required" title="Obligatorisk uppgift">*</strong>
+		</label>
+		<!-- Det måste vara <textarea></textarea> på samma rad, annars placeholder fungerar inte. -->
+		<textarea id="ditt_ärende_text" name="ditt_ärende_text" required placeholder="Skriv ditt meddelande. Minst 5 tecken" ></textarea>
+	  </p>
+    </fieldset>
+    <fieldset id="submitbutton">
+		<legend></legend>
+			<p>
+				<input type="submit" value="Skicka" style="font-size: larger;">
+			</p>
+			<!-- Följande fält används för att förhindra flera inlämningar.
+			Om den tas bort kommer det att betraktas som ett konfigurationsfel. -->
+			<input="prevent_multiple_submits" value="{$random_string}" tupe="hidden" />
+    </fieldset>
+   </form>
+  </div>
+ </div>
+  <footer>
+    <small id="copyleft">&copy;</small>
+    <small> Khatchik Shahinyan </small>
+  </footer>
+  <script src='./animations_contact.js'></script>
+ </body>
+</html>
