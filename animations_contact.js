@@ -67,3 +67,16 @@ function moveCanvas(a) {
 	myCanvas.style.position = 'relative';
 	myCanvas.style.left = posCanvas+'px';
 }
+
+function validateForm() {
+	var ditt_namn_x = document.forms["myForm"]["ditt_namn"].value;
+	// var ditt_email = document.forms["myForm"]["ditt_email"].value;
+	// var ditt_mobil_telefonnummer = document.forms["myForm"]["ditt_mobil_telefonnummer"].value;
+	// var ditt_ärende = document.forms["myForm"]["ditt_ärende"].value;
+	// var ditt_ärende_text = document.forms["myForm"]["ditt_ärende_text"].value;
+
+	console.log(ditt_namn_x);
+
+	alert(ditt_namn_x);
+;}
+ validateForm();

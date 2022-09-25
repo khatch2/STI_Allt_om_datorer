@@ -42,7 +42,8 @@ Khatchik Shahinyan
 	
    <div role="main">
 		<h2 id="contact_form" style="font-family: times;">Kontaktformulär</h2>
-		<form action="" method="">
+
+		<form name="myForm" action="" method="" click="validateForm">
 		<fieldset id="userData">
 		<legend>Vem är du?</legend>
       <p>
@@ -85,13 +86,15 @@ Khatchik Shahinyan
     <fieldset id="submitbutton">
 		<legend></legend>
 			<p>
-				<input type="submit" value="Skicka" style="font-size: larger;">
+				<!-- <input type="button" value="Skicka" style="font-size: larger;"> -->
+				<button type="button" onclick="validateForm()">Submitta dom</button>
 			</p>
 			<!-- Följande fält används för att förhindra flera inlämningar.
 			Om den tas bort kommer det att betraktas som ett konfigurationsfel. -->
 			<input="prevent_multiple_submits" value="{$random_string}" tupe="hidden" />
     </fieldset>
    </form>
+
   </div>
  </div>
   <footer>
