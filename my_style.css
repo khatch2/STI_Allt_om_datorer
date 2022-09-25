@@ -541,10 +541,12 @@ footer {
     height: 5em;
     resize: vertical;
 }
-.contact_html input[type="submit"] {
+.contact_html button[type="button"]{display: block;margin: auto;}
+
+/* .contact_html input[type="submit"] {
     display: block;
     margin: auto;
-}
+} */
 
 
 

@@ -70,13 +70,44 @@ function moveCanvas(a) {
 
 function validateForm() {
 	var ditt_namn_x = document.forms["myForm"]["ditt_namn"].value;
-	// var ditt_email = document.forms["myForm"]["ditt_email"].value;
-	// var ditt_mobil_telefonnummer = document.forms["myForm"]["ditt_mobil_telefonnummer"].value;
-	// var ditt_ärende = document.forms["myForm"]["ditt_ärende"].value;
-	// var ditt_ärende_text = document.forms["myForm"]["ditt_ärende_text"].value;
+	var ditt_email_x = document.forms["myForm"]["ditt_email"].value;
+	var ditt_mobil_telefonnummer_x = document.forms["myForm"]["ditt_mobil_telefonnummer"].value;
+	var ditt_ärende_x = document.forms["myForm"]["ditt_ärende"].value;
+	var ditt_ärende_text_x = document.forms["myForm"]["ditt_ärende_text"].value;
 
-	console.log(ditt_namn_x);
+	
+	if (ditt_namn_x.toUpperCase() == "KHATCHIK" ||
+	 ditt_namn_x.toUpperCase() == "khatchik shahinyan") /* OBS: här fungerar också "Khatchik"*/
+	{		
+		alert(" Khatchik är min programmare. ");
+	} else {
+		// console.log(ditt_namn_x);
+		alert(" Ditt namn var: " + ditt_namn_x );
+	}
+	if (ditt_email_x) {
+		alert(" Ditt e-mail var: " + ditt_email_x );
+	} else {
+		alert(" Nogåt gick fel !! " );		
+	}
+	if (ditt_mobil_telefonnummer_x) {
+		alert(" Ditt mobil-nummer var: " + ditt_mobil_telefonnummer_x );
+	} else {
+		alert(" Nogåt gick fel !! " );		
+	}
+	if (ditt_ärende_x) {
+		alert(" Ditt ärendes rubrik var: " + ditt_ärende_x );
+	} else {
+		alert(" Nogåt gick fel !! " );		
+	}
+	if (ditt_ärende_text_x) {
+		alert(" Ditt ärendes text var: " + ditt_ärende_text_x );
+	} else {
+		alert(" Nogåt gick fel !! " );		
+	}
 
-	alert(ditt_namn_x);
+
+
+	// alert(ditt_namn_x);
 ;}
- validateForm();
+// validateForm();
+

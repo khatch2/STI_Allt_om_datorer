@@ -62,7 +62,7 @@ Khatchik Shahinyan
 	  </p>
 	  <p>
 		<label for="ditt_mobil_telefonnummer">Mobil telefonnummer:</label>
-		<input type="" name="" id="" required placeholder="0712-345678" />
+		<input type="text" name="ditt_mobil_telefonnummer" id="ditt_mobil_telefonnummer" required placeholder="0712-345678" />
 	  </p>
     </fieldset>
     <fieldset id="userMessage">
@@ -87,11 +87,11 @@ Khatchik Shahinyan
 		<legend></legend>
 			<p>
 				<!-- <input type="button" value="Skicka" style="font-size: larger;"> -->
-				<button type="button" onclick="validateForm()">Submitta dom</button>
+				<button type="button" onclick="validateForm()">Submitta dem!</button>
 			</p>
 			<!-- Följande fält används för att förhindra flera inlämningar.
 			Om den tas bort kommer det att betraktas som ett konfigurationsfel. -->
-			<input="prevent_multiple_submits" value="{$random_string}" tupe="hidden" />
+			<input="prevent_multiple_submits" value="{$random_string}" type="hidden" />
     </fieldset>
    </form>
 
